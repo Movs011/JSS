@@ -122,18 +122,82 @@
 // console.log(religion[index+4]);
 //
 // let index = 0
-// let religion= "Islam"
-// let text= "Chechen republic center world"
-// let names = [["Movsar"], ['Movlid'],['Said'],['Ibra'],['Adam']]
-// let num = [1,2,3,4,5,6,7,8]
-// console.log(text.length);
-// console.log(names.length);
-// console.log(num.length ); 
-console.log(3<5);
-console.log(3>5);
-console.log(3<=3);
-console.log(3>=2);
+// // let religion= "Islam"
+// // let text= "Chechen republic center world"
+// // let names = [["Movsar"], ['Movlid'],['Said'],['Ibra'],['Adam']]
+// // let num = [1,2,3,4,5,6,7,8]
+// // console.log(text.length);
+// // console.log(names.length);
+// // console.log(num.length ); 
+// // console.log(3<5);
+// // console.log(3>5);
+// // console.log(3<=3);
+// // console.log(3>=2);
 
-console.log("ab"==="ab");
-console.log("ad"!=="ab");
-console.log("ad"==="ad");
+// // console.log("ab"==="ab");
+// // console.log("ad"!=="ab");
+// // console.log("ad"==="ad");
+
+// // // В условия if заходим только тогда, когда значениек TRUE
+// // if (3>5) {console }
+
+// let age = 10
+// let myname = "Movs"
+// let horror = "ужасы"
+// let action = "боевик"
+// let catoon = "мультфильм"
+
+// if (age>=18){
+//     console.log("Вам", age, "лет, поэтому вам можно смотреть", horror)} 
+// else if (age>12){
+//     console.log("Вам", age, "лет, поэтому вам можно смотреть", action)} 
+// else if (age<=12){
+//     console.log("Вам", age, "лет, поэтому вам можно смотреть", catoon)} 
+
+// let flag = "Chechny"
+// let i = 0
+// console.log(flag[0]);
+// console.log(flag[1]);
+// console.log(flag[2]);
+// console.log(flag[3]);
+// console.log(flag[4]);
+// console.log(flag[5]);
+// console.log(flag[6]);
+// console.log(flag[i++]);
+// console.log(flag[i++]);
+// console.log(flag[i++]);
+// console.log(flag[i++]);
+// console.log(flag[i++]);
+// console.log(flag[i++]);
+// console.log(flag[i++]);
+// let s = "Grozny"
+// for (let i=0; i<5;i++){
+//     console.log(s[i])
+// }
+// for (let i=0; i<s.length;i++){
+//     console.log(s[i])
+// }
+
+// Написать цикл, от 21 до 122 
+// for (let i = 21; i < 122; i+=2){
+//     console.log(i);
+// }
+// for (let i = 2; i < 37; i++){
+//     if (i%2==0)
+//     console.log(i);
+// }
+// for(let g =2; g<37; g++){
+//     if (g%2===1)
+//     console.log(g);
+// }
+// let num = 0
+// let ch= "Четное"
+// let ne= "Нечетное"
+// for (num=0; num<100;num++){
+//     if (num%2===0) {
+//         console.log(ch);
+//     } else(
+// console.log(ne)
+//     )
+
+// }
