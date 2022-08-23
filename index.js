@@ -201,3 +201,34 @@
 //     )
 
 // }
+
+// let names = ["Said", "Movsar", "Ibra", "Malik"]
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i]==="Movsar") {
+//         console.log(names[i], "Я выиграл");
+//         break
+//     }
+//     if (i ===names.length -1){
+//         if (names[i] !=="Movsar") {
+//         console.log( "К сожалению я не выиграл");}
+
+//     }
+// }
+
+// let names = ["Said", "Movsar", "Ibra", "Malik"]
+// names.push = "Unadi"
+
+
+// Добавить в начало массива = unshift
+// Добавить в конец массива = push
+// Удалить в начале массива = shift
+// Удалить в конце массива = pop 
+
+let names = ["Said", "Movsar", "Ibra", "Malik", "Maga"]
+for (let i =0; i<names.length; i++){
+    let currentName = names[i];
+    let firstLetter = currentName[0]
+    let lastLetter = currentName[currentName.length -1]
+    let nameLenght = currentName.length;
+    console.log(currentName, firstLetter, lastLetter, nameLenght)
+}
